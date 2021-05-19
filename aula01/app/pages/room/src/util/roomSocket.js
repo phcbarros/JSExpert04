@@ -1,5 +1,5 @@
-import {constants} from '../../_shared/constants.js'
-import SocketBuilder from '../../_shared/socketBuilder.js'
+import {constants} from '../../../_shared/constants.js'
+import SocketBuilder from '../../../_shared/socketBuilder.js'
 
 export default class RoomSocketBuilder extends SocketBuilder {
   constructor({socketUrl, namespace}) {
