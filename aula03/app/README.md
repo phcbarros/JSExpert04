@@ -8,48 +8,47 @@ Marque esse projeto com uma estrela 🌟
 
 ### Página de Login
 
-<img src="https://github.com/ErickWendel/semanajsexpert-clubhouse-template/raw/main/assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
+<img src="./assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
 
 ### Página de Salas
 
-<img src="https://github.com/ErickWendel/semanajsexpert-clubhouse-template/raw/main/assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
+<img src="./assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
 
 ### Página de Sala
 
-<img src="https://github.com/ErickWendel/semanajsexpert-clubhouse-template/raw/main/assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
+<img src="./assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
 
 ## Checklist Features
 
 - [ ] O app deve funcionar na Web, Android e IOS
 - Login
-
   - [ ] Deve ter login com GitHub
     - [ ] Se houver dados do usuario em localStorage deve ir para lobby direto
 
 - Lobby
   - [ ] Se não houver dados do usuario em localStorage deve voltar para login
-  - [x] Mostra todas as salas ativas
-  - [x] Atualiza salas em realtime
-  - [x] Pode criar uma sala sem topico
-  - [x] Pode criar uma sala com topico
-  - [x] Pode acessar salas ativas
+  - [ ] Mostra todas as salas ativas
+  - [ ] Atualiza salas em realtime
+  - [ ] Pode criar uma sala sem topico
+  - [ ] Pode criar uma sala com topico
+  - [ ] Pode acessar salas ativas
 - Room
   - [ ] Se não houver dados do usuario em localStorage deve voltar para login
-  - [x] Cria uma sala com um usuário dono
-  - [x] Todos usuários futuros entram com perfil de attendees
-  - [x] Notifica Lobby sobre atualizações na sala
-  - [x] Lista usuarios com perfis de speakers e attendees
-  - [x] Se o dono da sala desconectar, será removida
+  - [ ] Cria uma sala com um usuário dono
+  - [ ] Todos usuários futuros entram com perfil de attendees
+  - [ ] Notifica Lobby sobre atualizações na sala
+  - [ ] Lista usuarios com perfis de speakers e attendees
+  - [ ] Se o dono da sala desconectar, será removida
   - Users
     - Speaker
       - [ ] Recebe notificação de attendees para se tornarem speakers
-      - [x] Atualizam a tela o upgrade de attendee para speaker
+      - [ ] Atualizam a tela o upgrade de attendee para speaker
       - [ ] Poderá deixar seu microfone mudo
       - Se dono da sala
         - [ ] Pode aprovar attendees a virarem speakers
         - Ao se desconectar
-          - [x] Promove o speaker mais velho da sala
-          - [x] Se não houver speaker promove o attendee mais velho da sala
+          - [ ] Promove o speaker mais velho da sala
+          - [ ] Se não houver speaker promove o attendee mais velho da sala
     - Attendee
       - [ ] Pode ouvir speakers ativos
       - [ ] Pode pedir upgrade de perfil ao dono da sala
